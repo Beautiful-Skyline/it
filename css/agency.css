@@ -19,6 +19,14 @@
 
 }
 
+.messengers{
+position: absolute;
+font-size: 35%;
+font-weight: bold;
+top:270px;
+margin-left:-110px;
+}
+
 
 body {
     overflow-x: hidden;
