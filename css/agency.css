@@ -19,6 +19,10 @@
 
 }
 
+.timeline-image .fa { 
+color: white;
+}
+
 .messengers{
 position: absolute;
 font-size: 35%;
@@ -293,7 +297,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/map-image.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -679,11 +683,22 @@ aside.clients img {
     margin: 50px auto;
 }
 
+section#about {
+    background-image: url(../img/grey.png);
+	background-repeat: repeat;
+}
+section#services {
+    background-image: url(../img/background-texture.png);
+	background-repeat: repeat;
+}
+
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/map-image.jpg);
     background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: scroll;
+	background-position: 50% 50%;
+	background-size: cover;
 }
 
 section#contact .section-heading {
