@@ -536,9 +536,9 @@ section h3.section-subheading {
 }
 
 .timeline>li .timeline-image h4 {
-    margin-top: 12px;
-    font-size: 10px;
-    line-height: 14px;
+    margin: 13px 0;
+    font-size: 40px;
+    line-height: 40px;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
@@ -604,9 +604,9 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 16px;
-        font-size: 13px;
-        line-height: 18px;
+        margin: 13px 0;
+        font-size: 60px;
+        line-height: 60px;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
@@ -632,9 +632,9 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 30px;
-        font-size: 18px;
-        line-height: 26px;
+        margin: 23px 0px;
+        font-size: 90px;
+        line-height: 90px;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
@@ -658,7 +658,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 40px;
+        margin: 28px 0;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
