@@ -35,9 +35,15 @@ color: white;
 #price-table th{
 padding: 8px 10px;
 border-bottom:1px solid #E6E6E6;}
+<<<<<<< HEAD
 #price-table td{
 padding: 8px 10px;
 text-align: left;}
+=======
+
+#price-table td{
+padding: 8px 10px;}
+>>>>>>> 800e0ce14cbcfa1bb8f220d806398c55469c5de3
 
 #price-table td:nth-child(3){
 	text-align:center;
