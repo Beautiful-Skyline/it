@@ -19,9 +19,64 @@
 }
 */
 
+
+a.portfolio-link{
+text-decoration: none;
+}
+
 .timeline-image .fa { 
 color: white;
 }
+
+#price-table{
+	font-size:14px;
+	padding:20px 0 40px;}
+	
+#price-table th{
+padding: 8px 10px;
+border-bottom:1px solid #E6E6E6;}
+#price-table td{
+padding: 8px 10px;
+text-align: left;}
+
+#price-table td:nth-child(3){
+	text-align:center;
+	font-weight:700;}
+	
+#price-table td{
+	border-bottom:1px dotted #E6E6E6 !important;}
+	
+#price-table tr:hover{
+	background:#E6E6E6;}
+	
+.what{
+	background:#ffd700;
+	color:#3B4043;
+	font-size:11px;
+	line-height:11px;
+	padding:2px 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	text-shadow:none;}
+	
+.package{
+	width:700px;}
+	
+.price-delimiter1{
+padding-bottom:20px;
+margin-bottom:20px;
+border-bottom:1px solid #E6E6E6;}
+
+.price-delimiter2{
+padding-bottom:20px;
+margin-bottom:20px;
+margin-top:40px;
+border-bottom:1px solid #E6E6E6;}
+
+/*таблица цен*/
 
 
 
@@ -865,7 +920,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .close-modal {
-    position: absolute;
+    position: fixed;
     top: 25px;
     right: 25px;
     width: 75px;
