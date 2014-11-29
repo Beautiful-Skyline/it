@@ -114,6 +114,15 @@ border-bottom:1px solid #E6E6E6;}
 body {
     overflow-x: hidden;
     font-family: "Open Sans Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-transition: all 1.5s ease; 
+    -moz-transition: all 1.5s ease; 
+    -o-transition: all 1.5s ease; 
+    -ms-transition: all 1.5s ease; 
+    transition: all 1.5s ease;  
+}
+
+small {
+	font-size: 69%;
 }
 
 .fa {
@@ -343,7 +352,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
@@ -352,7 +361,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -363,12 +372,17 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: rgba(0, 0, 0, 0.600);
+        /*padding: 10px 0;*/
+        background-color: rgba(0, 0, 0, 0.500);
+        -webkit-transition: background-color 1.5s ease; 
+    	-moz-transition: background-color 1.5s ease; 
+    	-o-transition: background-color 1.5s ease; 
+    	-ms-transition: background-color 1.5s ease; 
+    	transition: background-color 1.5s ease;  
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        /*font-size: 1.5em;*/
     }
 }
 
@@ -397,11 +411,12 @@ header .intro-text .intro-lead-in {
     font-style: normal;
     line-height: 30px;
 }
-	.messengers{
+.messengers{
 position: absolute;
-font-size: 35%;
+font-size: 28%;
 font-weight: 700;
-margin: -30px 0px 0px -85px;
+margin: -20px 0px 0px -132px;
+opacity: 0.7;
 }
 
 header .intro-text .intro-heading {
@@ -420,26 +435,18 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-	margin-bottom: 25px;
-    font-family: "Open Sans Light","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 40px;
-    font-style: normal;
     line-height: 40px;
 	}
 
 	.messengers{
-position: absolute;
-font-size: 35%;
-font-weight: 700;
-margin: -30px 0px 0px -110px;
-}
+		font-size: 29%;
+		margin: -30px 0px 0px -177px;
+	}
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
-        font-weight: 700;
         line-height: 75px;
     }
 }

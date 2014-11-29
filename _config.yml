@@ -1,0 +1,17 @@
+url: http://it.skylines.su
+baseurl: /
+
+# Site settings
+title: Ремонт компьютеров в Москве и Киеве
+email: i@skylines.su
+description: 7(916)502-01-40
+
+
+# Postal address (add as many lines as necessary)
+#address:
+#  - line: 3481 Melrose Place
+#  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
