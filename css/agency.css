@@ -114,11 +114,11 @@ border-bottom:1px solid #E6E6E6;}
 body {
     overflow-x: hidden;
     font-family: "Open Sans Light","Helvetica Neue",Helvetica,Arial,sans-serif;
-    -webkit-transition: all 1.5s ease; 
-    -moz-transition: all 1.5s ease; 
-    -o-transition: all 1.5s ease; 
-    -ms-transition: all 1.5s ease; 
-    transition: all 1.5s ease;  
+    -webkit-transition: all 1.5s ease-in-out; 
+    -moz-transition: all 1.5s ease-in-out; 
+    -o-transition: all 1.5s ease-in-out; 
+    -ms-transition: all 1.5s ease-in-out; 
+    transition: all 1.5s ease-in-out;  
 }
 
 small {
@@ -291,7 +291,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    /*background-color: #222;*/
+    background-color: rgba(0, 0, 0, 0.500);
 }
 
 .navbar-default .navbar-brand {
@@ -374,11 +375,11 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         /*padding: 10px 0;*/
         background-color: rgba(0, 0, 0, 0.500);
-        -webkit-transition: background-color 1.5s ease; 
-    	-moz-transition: background-color 1.5s ease; 
-    	-o-transition: background-color 1.5s ease; 
-    	-ms-transition: background-color 1.5s ease; 
-    	transition: background-color 1.5s ease;  
+        -webkit-transition: background-color 1.5s ease-in-out; 
+    	-moz-transition: background-color 1.5s ease-in-out; 
+    	-o-transition: background-color 1.5s ease-in-out; 
+    	-ms-transition: background-color 1.5s ease-in-out; 
+    	transition: background-color 1.5s ease-in-out;  
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -410,7 +411,55 @@ header .intro-text .intro-lead-in {
     font-size: 30px;
     font-style: normal;
     line-height: 30px;
+
+    animation-delay: 9s;
+
+    -webkit-animation: bounce 5s ease-out;
+	-moz-animation: bounce 5s ease-out;
+	-o-animation: bounce 5s ease-out;
+	animation: bounce 5s ease-out;
 }
+
+/* W3, Opera 12+, Firefox 16+ */
+@keyframes bounce {
+  0% {
+	transform:translateY(-800px);
+    opacity: 0;
+  }
+
+
+  60% {
+  	transform:translateY(0px);
+  	opacity: 0.5;
+  }
+
+  65% {
+  	transform:translateY(20px);
+  }
+  70% {
+  	transform:translateY(-30px);
+  }
+  80% {
+  	transform:translateY(-20px);
+  }
+  90% {
+  	transform:translateY(10px);
+  }
+  95% {
+  	transform:translateY(-5px);
+  }
+  97% {
+  	transform:translateY(1px);
+  }
+  99% {
+  	transform:translateY(-2px);
+  }
+  100% {
+  	transform:translateY(0px);
+    opacity: 1;
+  }
+}
+
 .messengers{
 position: absolute;
 font-size: 28%;
