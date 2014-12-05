@@ -70,6 +70,7 @@ a:focus {
 .Skylines_logo_light {
 	background: url('../Graphics/Graceful.Grapes.light.png') no-repeat 0 0;
 	position: absolute;
+    top: 10px;
 }
 
 /*В данном случае применяется вместе с классами выравнивания для цетровки элемента или группы элементов*/
@@ -112,6 +113,7 @@ a:focus {
 .Heading {
     text-transform: uppercase;
     font-weight: 700;
+    animation-delay: 1s;
 }
 
 .Heading_description {
@@ -136,7 +138,7 @@ a:focus {
 	}
 
 	.Our_working_hours {
-		margin: 20px 0px -25px 255px;
+		margin: 20px 0px -25px 275px;
 		font-size: 220%;
 	}
 
