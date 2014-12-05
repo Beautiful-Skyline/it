@@ -138,7 +138,8 @@ a:focus {
 	}
 
 	.Our_working_hours {
-		margin: 20px 0px -25px 275px;
+		/*margin: 20px 0px -25px 275px;*/
+        margin: 90px 0px 0px 275px;
 		font-size: 220%;
 	}
 
@@ -147,12 +148,14 @@ a:focus {
     }
 
     .Heading_description {
-    	margin: -20px 0px 20px;
-    	font-size: 210%;
+    	/*margin: -20px 0px 20px;
+    	font-size: 210%;*/
+        margin: 0px 0px 90px 285px;
+        font-size: 165%;
 	}
 
 	.What_We_Do {
-		width: 50%;
+		width: 500px;
 		margin: 0px auto;
 		text-align: justify;
 	}
