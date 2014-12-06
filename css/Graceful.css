@@ -58,15 +58,6 @@ a:focus {
 	background-color: transparent;
 }
 
-/* Header Image Background */
-.Introduction_page {
-    background: url('../Graphics/pretty.cat.sleeps.on.the.black.computer.keyboard.50perc.black.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 .Skylines_logo_light {
 	background: url('../Graphics/Graceful.Grapes.light.png') no-repeat 0 0;
 	position: absolute;
@@ -94,69 +85,95 @@ a:focus {
 }
 
 
+/*Анимашки главной страницы*/
+.Text_and_VoIP_messengers   {animation-delay: 3.5s;}
+.Our_iPhone_number          {animation-delay: 3s;}
+.Our_working_hours          {animation-delay: 5s;}
+.Heading                    {animation-delay: 1s;}
+.Heading_description        {animation-delay: 4s;}
+.What_We_Do                 {animation-delay: 5s;}
 
-.Text_and_VoIP_messengers{
-	font-weight: 100;
-	animation-delay: 3.5s;
-}
-
-.Our_iPhone_number {
-	font-weight: 100;
-    animation-delay: 3s;
-}
-
-.Our_working_hours {
-	font-weight: 100;
-	animation-delay: 5s;
-}
 
 .Heading {
-    text-transform: uppercase;
     font-weight: 700;
-    animation-delay: 1s;
-}
-
-.Heading_description {
-	font-weight: 100;
-	animation-delay: 4s;
 }
 
 .What_We_Do {
-    animation-delay: 5s;
+    text-align: justify;
+    margin: 0px auto;
+}
+
+@media(min-width:360px) {
+
+    .Text_and_VoIP_messengers{
+        margin: 0 0 -10px 120px;
+        font-size: 85%;
+    }
+
+    .Our_iPhone_number{
+        font-size: 255%;
+    }
+
+    .Our_working_hours {
+        font-size: 120%;
+    }
+
+    .Heading {
+        font-size: 290%;
+    }
+
+    .Heading_description {
+        margin: 0px 0px 90px 0px;
+        font-size: 95%;
+        font-weight: 700;
+    }  
+        
 }
 
 @media(min-width:768px) {
 
-	.Text_and_VoIP_messengers{
-		margin: 0 0 -10px 135px;
+	.Our_working_hours {
+        margin: 90px 0px 0px 235px;
+		font-size: 180%;
 	}
+
+    .Heading {
+        font-size: 380%;
+    }
+
+    .Heading_description {
+        margin: 0px 0px 90px 245px;
+        font-size: 135%;
+	}
+
+	.What_We_Do {
+		width: 500px;
+    }		
+		
+}
+
+@media(min-width:992px) {
+
+    .Text_and_VoIP_messengers{
+        margin: 0 0 -10px 135px;
+    }
 
     .Our_iPhone_number{
-    	font-size: 285%;    	
-    	margin: 0 0 -10px 0;
+        font-size: 285%;
+    }
 
-	}
-
-	.Our_working_hours {
-		/*margin: 20px 0px -25px 275px;*/
+    .Our_working_hours {
         margin: 90px 0px 0px 275px;
-		font-size: 220%;
-	}
+        font-size: 220%;
+    }
 
     .Heading {
         font-size: 450%;
     }
 
     .Heading_description {
-    	/*margin: -20px 0px 20px;
-    	font-size: 210%;*/
         margin: 0px 0px 90px 285px;
         font-size: 165%;
-	}
+    }
 
-	.What_We_Do {
-		width: 500px;
-		margin: 0px auto;
-		text-align: justify;
-	}
 }
