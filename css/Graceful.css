@@ -144,6 +144,7 @@ a:focus {
     .Heading_description {
         margin: 0px 0px 90px 245px;
         font-size: 135%;
+        font-weight: 100;
 	}
 
 	.What_We_Do {
