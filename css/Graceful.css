@@ -94,16 +94,6 @@ a:focus {
 .What_We_Do                 {animation-delay: 5s;}
 
 
-.Heading {
-    font-weight: 700;
-}
-
-.What_We_Do {
-    text-align: justify;
-    margin: 0px auto;
-}
-
-@media(min-width:360px) {
 
     .Text_and_VoIP_messengers{
         margin: 0 0 -10px 120px;
@@ -119,16 +109,23 @@ a:focus {
     }
 
     .Heading {
-        font-size: 290%;
+        font-size: 250%;
+        font-weight: 700;
     }
 
     .Heading_description {
         margin: 0px 0px 90px 0px;
-        font-size: 95%;
+        font-size: 85%;
         font-weight: 700;
-    }  
-        
-}
+    }
+
+    .What_We_Do {
+        text-align: justify;
+        margin: 0px auto;
+    }
+
+
+
 
 @media(min-width:768px) {
 
