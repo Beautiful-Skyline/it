@@ -33,15 +33,28 @@
 #!!!!!!!!!!!!!!!!!!!!!:...                      .::!!!!!!!!!!!!!!!!!!!!!!!!
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-url: http://it.skylines.su
-baseurl: /
+
 
 # Site settings
-title: Ремонт компьютеров в Москве и Киеве
-email: it@skylines.su
-description: 7(916)502-01-40
+url: 					http://it.skylines.su
+baseurl: 				/
+title: 					Ремонт компьютеров в Москве и Киеве
+email: 					it@skylines.su
+author:      			Beautiful Skyline
+description: 			Скорая компьютерная помощь ★ Полный спектр услуг от А до Я ★ Качественно и в срок.
+telephone: 				+7 916 502 01 40
+application_name: 		it Мастерская
+geo_placename: 			Moscow
 
+# Analytics
+google_analytics:		true
+yandex_metrika:			true
+
+# Optional features
+animated:           	true
 
 # Build settings
-markdown: kramdown
-permalink: pretty
+markdown: 				kramdown
+permalink: 				pretty
+sass:
+  compressed: 			true
