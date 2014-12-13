@@ -56,5 +56,5 @@ animated:           	true
 # Build settings
 markdown: 				kramdown
 permalink: 				pretty
-sass:
-  compressed: 			true
+#sass:
+#  compressed: 			true
