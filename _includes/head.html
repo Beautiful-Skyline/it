@@ -30,25 +30,8 @@
     <!-- Стили, критические для качественного отображения сайта -->
     <style type="text/css">
         /* Header Image Background */
-         @media (orientation: landscape) {
-            .Introduction_page {
-                background: url('{{ site.baseurl }}Graphics/pretty.cat.sleeps.on.the.black.computer.keyboard.50perc.black.jpg') no-repeat 100% 100% fixed;
-                    -webkit-background-size: cover;
-                    -moz-background-size: cover;
-                    background-size: cover;
-                    -o-background-size: cover;
-                }
-            }
 
-            @media (orientation: portrait) {
-                .Introduction_page {
-                    background: url('{{ site.baseurl }}Graphics/800x1280.pretty.cat.sleeps.on.the.black.computer.keyboard.jpg') no-repeat center center fixed;
-                    -webkit-background-size: cover;
-                    -moz-background-size: cover;
-                    background-size: cover;
-                    -o-background-size: cover;
-                }
-            }    
+        
 
     </style>
 
@@ -92,7 +75,7 @@
     <!-- <link rel="stylesheet" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" > -->
     
     <!-- Аккуратненькие всплывающие окошки -->
-    <!-- <link rel="stylesheet" href="css/bootstrap-popover.css" > -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/bootstrap-popover.css"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

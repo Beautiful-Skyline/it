@@ -35,13 +35,15 @@
 !!!!!!!!!!!!!!!!!!!!!:...                      .::!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  -->
-<html class="Introduction_page" lang="ru">
+<html class="background-is-a-picture {{ page.background }}" lang="ru">
 	{% include head.html %}
 <body id="page-top">
 	{% include navigation.html %}
 
-    <!-- My graceful page content --> 
+    <!-- My graceful page content -->
+    <div class="container"> 
     {{ content }}
+    </div>
     <!-- /.My graceful page content -->
 
   	{% include technical-area-1.html %}

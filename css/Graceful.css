@@ -35,11 +35,41 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  */
 
+.background-is-a-picture {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media (orientation: landscape) {
+    .kitten {
+        background: url('/Graphics/pretty.cat.sleeps.on.the.black.computer.keyboard.50perc.black.jpg') no-repeat 100% 100% fixed;
+    }
+}
+@media (orientation: portrait) {
+    .kitten {
+        background: url('/Graphics/800x1280.pretty.cat.sleeps.on.the.black.computer.keyboard.jpg') no-repeat center center fixed;
+    }
+}
+
+
+    .MacAir {
+        background: url('/Graphics/Mac.Air.mid.2013.jpg') no-repeat center center fixed;
+    }
+
+
+
+
+
+
+
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     text-shadow: 0px 2px 3px #555; /*Что бы текст оставался читабельным на пёстрых фоновых картинах.*/
     background-color: transparent; /*Что бы не закрывать красивые картинные фоны*/
     font-family: "Open Sans","Open Sans Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
 }
 
 a, a:visited {
