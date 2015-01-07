@@ -35,6 +35,15 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  */
 
+
+
+
+
+/* Временно решила не использовать картинки как фон, но не удаляю такую возможность
+
+
+
+
 .background-is-a-picture {
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -53,10 +62,15 @@
     }
 }
 
-
     .MacAir {
         background: url('/Graphics/Mac.Air.mid.2013.jpg') no-repeat center center fixed;
     }
+#####################################################################
+*/
+
+.blue {background-color: #004D90;}
+.orange {background-color: #009053;}
+.green {background-color: #009002;}
 
 
 
@@ -154,7 +168,7 @@ a:focus {
     }
 
     .Heading_description {
-        margin: 0px 0px 90px 0px;
+        margin: 0px 0px 50px 0px;
         font-size: 85%;
         font-weight: 700;
     }
@@ -170,7 +184,7 @@ a:focus {
 @media(min-width:768px) {
 
 	.Our_working_hours {
-        margin: 90px 0px 0px 235px;
+        margin: 50px 0px 0px 235px;
 		font-size: 180%;
 	}
 
@@ -179,7 +193,7 @@ a:focus {
     }
 
     .Heading_description {
-        margin: 0px 0px 90px 245px;
+        margin: 0px 0px 50px 245px;
         font-size: 135%;
         font-weight: 100;
 	}
@@ -201,7 +215,7 @@ a:focus {
     }
 
     .Our_working_hours {
-        margin: 90px 0px 0px 275px;
+        margin: 50px 0px 0px 275px;
         font-size: 220%;
     }
 
@@ -210,7 +224,7 @@ a:focus {
     }
 
     .Heading_description {
-        margin: 0px 0px 90px 285px;
+        margin: 0px 0px 50px 285px;
         font-size: 165%;
     }
 
