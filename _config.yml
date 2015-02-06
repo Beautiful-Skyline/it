@@ -36,14 +36,14 @@
 
 
 # Site settings
-url: 					http://it.skylines.su
-baseurl: 				/
-title: 					Ремонт компьютеров в Москве и Киеве
-email: 					it@skylines.su
-author:      			Beautiful Skyline
-description: 			Скорая компьютерная помощь ★ Полный спектр услуг от А до Я ★ Качественно и в срок.
-telephone: 				+7 916 502 01 40
-application_name: 		it Мастерская
+url: 					      http://0.0.0.0:4000
+baseurl: 				    /
+title: 					    Ремонт компьютеров в Москве и Киеве
+email: 					    it@skylines.su
+author:      			  Beautiful Skyline
+description: 			  Скорая компьютерная помощь ★ Полный спектр услуг от А до Я ★ Качественно и в срок.
+telephone: 				  +7 916 502 01 40
+application_name: 	it Мастерская
 geo_placename: 			Moscow
 
 # Analytics
@@ -51,11 +51,31 @@ google_analytics:		true
 yandex_metrika:			true
 
 # Optional features
-animated:           	true
+#animated:           true
 
 # Build settings
-markdown: 				kramdown
-permalink: 				pretty
-#sass:
-#  compressed: 			true
+permalink:				  pretty
+sass:
+    style: 				  :compressed
 
+
+defaults:
+  -
+    scope:
+      path: 			  "it"
+    values:
+      layout: 			"service"
+      background: 	"rgba(128, 0, 128, 0.80)"
+
+  -
+    scope:
+      path: 			  "it/computer-help"
+    values:
+      background: 	"rgba(255, 165, 0, 0.80)"
+
+  -
+    scope:
+      path:         "it/prices"
+    values:
+      background:   "rgba(0, 128, 0, 0.80)"
+      layout:       "price"

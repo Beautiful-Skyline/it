@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/*!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`   `4!!!!!!!!!!~4!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   <~:   ~!!!~   ..  4!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  ~~~~~~~  '  ud$$$$$  !!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  ~~~~~~~~~: ?$$$$$$$$$  !!!!!!!!!!!!!!
+!!!!!!!!!!!`     ``~!!!!!!!!!!!!!!  ~~~~~          "*$$$$$k `!!!!!!!!!!!!!
+!!!!!!!!!!  $$$$$bu.  '~!~`     .  '~~~~      :~~~~          `4!!!!!!!!!!!
+!!!!!!!!!  $$$$$$$$$$$c  .zW$$$$$E ~~~~      ~~~~~~~~  ~~~~~:  '!!!!!!!!!!
+!!!!!!!!! d$$$$$$$$$$$$$$$$$$$$$$E ~~~~~    '~~~~~~~~    ~~~~~  !!!!!!!!!!
+!!!!!!!!> 9$$$$$$$$$$$$$$$$$$$$$$$ '~~~~~~~ '~~~~~~~~     ~~~~  !!!!!!!!!!
+!!!!!!!!> $$$$$$$$$$$$$$$$$$$$$$$$b   ~~~    '~~~~~~~     '~~~ '!!!!!!!!!!
+!!!!!!!!> $$$$$$$$$$$$$$$$$$$$$$$$$$$cuuue$$N.   ~        ~~~  !!!!!!!!!!!
+!!!!!!!!! **$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Ne  ~~~~~~~~  `!!!!!!!!!!!
+!!!!!!!!!  J$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$N  ~~~~~  zL '!!!!!!!!!!
+!!!!!!!!  d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$c     z$$$c `!!!!!!!!!
+!!!!!!!> <$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$> 4!!!!!!!!
+!!!!!!!  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  !!!!!!!!
+!!!!!!! <$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*"   ....:!!
+!!!!!!~ 9$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$e@$N '!!!!!!!
+!!!!!!  9$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  !!!!!!!
+!!!!!!  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$""$$$$$$$$$$$~ ~~4!!!!
+!!!!!!  9$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$    $$$$$$$Lue  :::!!!!
+!!!!!!> 9$$$$$$$$$$$$" '$$$$$$$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$  !!!!!!!
+!!!!!!! '$$*$$$$$$$$E   '$$$$$$$$$$$$$$$$$$$$$$$$$$$u.@$$$$$$$$$E '!!!!!!!
+!!!!~`   .eeW$$$$$$$$   :$$$$$$$$$$$$$***$$$$$$$$$$$$$$$$$$$$u.    `~!!!!!
+!!> .:!h '$$$$$$$$$$$$ed$$$$$$$$$$$$Fz$$b $$$$$$$$$$$$$$$$$$$$$F '!h.  !!!
+!!!!!!!!L '$**$$$$$$$$$$$$$$$$$$$$$$ *$$$ $$$$$$$$$$$$$$$$$$$$F  !!!!!!!!!
+!!!!!!!!!   d$$$$$$$$$$$$$$$$$$$$$$$$buud$$$$$$$$$$$$$$$$$$$$"  !!!!!!!!!!
+!!!!!!! .<!  #$$*"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*  :!!!!!!!!!!!
+!!!!!!!!!!!!:   d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ :!!!!!!!!!!!!!
+!!!!!!!!!!!~  :  '#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*"    !!!!!!!!!!!!!!!
+!!!!!!!!!!  !!!!!:   ^"**$$$$$$$$$$$$$$$$$$$$**#"     .:<!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!:...                      .::!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ */
+
+
+
+.what { 
+    margin: 0 10px;
+    opacity: 0.7;
+}
+
+.popover{
+    
+    color: black;
+    text-shadow: none;
+    opacity: 0.9!important;
+}
+
+#message {
+    height: 236px;
+
+    width: 390px;
+    margin: 0px auto;
+}
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+body,button {
+    text-shadow: 0px 1px 1px #323232; /*Что бы текст оставался читабельным на пёстрых фоновых картинах.*/
+}
+
+.btn {
+            color: white;
+            padding: 15px 30px;
+            border-color: white;
+            background-color: transparent;
+        }
+
+.navbar-nav > li > .dropdown-menu {
+    display: none;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: transparent;
+}
+
+.navbar-brand {
+    display: inline-block;
+    width: 19px;
+    height: 30px;
+}
+
+
+nav.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
+
+
+}            
+
+.Skylines_logo_light {
+	background: url('../Graphics/graceful.grapes.light&small.png') no-repeat 0 0;
+	position: absolute;
+    top: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+header > h2{
+    max-width: 500px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+
+
+/*В данном случае применяется вместе с классами выравнивания для цетровки элемента или группы элементов*/
+.table 	{display: 			table;}
+.cell 	{display: 			table-cell;}
+
+/*Выравнивание*/
+.middle	{vertical-align:	middle;}
+.center	{text-align: 		center;}
+
+.full-width {width:	100%;}
+/*.white {color: #fff;}*/
+
+.F11 {
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+/*Анимашки главной страницы*/
+.Text_and_VoIP_messengers   {animation-delay: 3.5s;}
+.Our_iPhone_number          {animation-delay: 3s;}
+.Our_working_hours          {animation-delay: 5s;}
+.Heading                    {animation-delay: 1s;}
+.Heading_description        {animation-delay: 4s;}
+.What_We_Do                 {animation-delay: 5s;}
+
+
+
+    .Text_and_VoIP_messengers{
+        margin: 0 0 -10px 120px;
+        font-size: 85%;
+    }
+
+    .Our_iPhone_number{
+        font-size: 255%;
+    }
+
+    .Our_working_hours {
+        font-size: 120%;
+    }
+
+    .Heading {
+        font-size: 250%;
+        font-weight: 700;
+    }
+
+    .Heading_description {
+        margin: 0px 0px 50px 0px;
+        font-size: 85%;
+        font-weight: 700;
+    }
+
+    .What_We_Do {
+        text-align: justify;
+        margin: 0px auto;
+    }
+
+
+
+
+@media(min-width:768px) {
+
+	.Our_working_hours {
+        margin: 50px 0px 0px 235px;
+		font-size: 180%;
+	}
+
+    .Heading {
+        font-size: 380%;
+    }
+
+    .Heading_description {
+        margin: 0px 0px 50px 245px;
+        font-size: 135%;
+        font-weight: 100;
+	}
+
+	.What_We_Do {
+		width: 500px;
+    }		
+		
+}
+
+@media(min-width:992px) {
+
+    .Text_and_VoIP_messengers{
+        margin: 0 0 -10px 135px;
+    }
+
+    .Our_iPhone_number{
+        font-size: 285%;
+    }
+
+    .Our_working_hours {
+        margin: 50px 0px 0px 275px;
+        font-size: 220%;
+    }
+
+    .Heading {
+        font-size: 450%;
+    }
+
+    .Heading_description {
+        margin: 0px 0px 50px 285px;
+        font-size: 165%;
+    }
+
+}

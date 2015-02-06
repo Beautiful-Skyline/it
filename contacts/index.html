@@ -1,0 +1,46 @@
+---
+layout: 		page
+background:		rgba(75, 0, 130, 0.80)
+title:          Пишите и ответим
+summary:        Оставьте свой отзыв о нас. Задавайте вопросы! Не забудьте указать контактный адрес электронной почты или телефон, что бы мы могли вам ответить.
+---
+
+    <section id="contact">
+
+            <div class="row">
+            <div class="col-md-4 text-center"></div>
+
+
+                <div class="col-md-4 text-center">
+                    <form name="sentMessage" id="contactForm" novalidate method="POST" >
+                        <div class="row">                                                      
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Закажите обратный звонок, просто укажите ваш номер телефона и перезвоним!" id="message" required data-validation-required-message="Напишите что-нибудь"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>                            
+                                <button type="submit" class="btn btn-xl">Отправить письмо</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+
+
+            </div>
+
+    </section>
+
+        <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+ 

@@ -1,0 +1,14 @@
+- title: "Цены"
+  href:  "it/prices"
+
+- title: "Услуги"
+  href:  "it/computer-help"
+  subcategories:
+    - subtitle: "антивирусная защита"
+      subhref:  "anti-virus-protection"
+
+- title: "Контакты"
+  href:  "contacts"
+
+- title: "О нас"
+  href:  "/"

@@ -13,17 +13,26 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="{{ site.baseurl }}Computer-service-Prices/">Цены</a>
-                    </li>
-                    <li>
-                        <a href="{{ site.baseurl }}#">О нас</a>
-                    </li>
-                    <li>
-                        <a href="{{ site.baseurl }}#">Контакты</a>
-                    </li>
-                </ul>
+
+
+<ul class="nav navbar-nav">
+ {% for graceful in site.data.menu %}
+<li>
+<a href="{{ site.url }}/{{ graceful.href }}/">{{ graceful.title }}</a>
+<!-- check to see if the data file has a submenu, and if so display it -->
+{% if graceful.subcategories != null %}
+<ul class="dropdown-menu">
+{% for subcategory in graceful.subcategories %}
+<li><a href="{{ site.url }}/{{ graceful.href }}/{{ subcategory.subhref }}/">{{ subcategory.subtitle }}</a></li>
+{% endfor %}
+</ul>
+{% else %}
+{% endif %}
+</li>
+{% endfor %} 
+</ul>
+                
+                   
             </div>
             <!-- /.navbar-collapse -->
         </div>
