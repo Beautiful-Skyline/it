@@ -36,54 +36,60 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  */
 
+.navbar-nav .active {
+    display:            none;    
+}
 
+.i-am-social{
+    display:            inline-block;
+}
 
 .what { 
-    margin: 0 10px;
-    opacity: 0.7;
+    margin:             0 10px;
+    opacity:            0.7;
 }
 
 .popover{
     
-    color: black;
-    text-shadow: none;
-    opacity: 0.9!important;
+    color:              black;
+    text-shadow:        none;
+    opacity:            0.9!important;
 }
 
 #message {
-    height: 236px;
+    height:             236px;
 
-    width: 390px;
-    margin: 0px auto;
+    width:              390px;
+    margin:             0px auto;
 }
 
 body {
-    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    margin-top:         50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 body,button {
-    text-shadow: 0px 1px 1px #323232; /*Что бы текст оставался читабельным на пёстрых фоновых картинах.*/
+    text-shadow:        0px 1px 1px #323232; /*Что бы текст оставался читабельным на пёстрых фоновых картинах.*/
 }
 
 .btn {
-            color: white;
-            padding: 15px 30px;
-            border-color: white;
-            background-color: transparent;
-        }
+    color:              white;
+    padding:            15px 30px;
+    border-color:       white;
+    background-color:   transparent;
+}
 
 .navbar-nav > li > .dropdown-menu {
-    display: none;
+    display:            none;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-	background-color: transparent;
+	background-color:   transparent;
 }
 
 .navbar-brand {
-    display: inline-block;
-    width: 19px;
-    height: 30px;
+    display:            inline-block;
+    width:              19px;
+    height:             30px;
 }
 
 

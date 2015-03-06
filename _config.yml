@@ -36,7 +36,7 @@
 
 
 # Site settings
-url: 					      http://it.skylines.su
+url: 					      http://0.0.0.0:4000
 baseurl: 				    /
 title: 					    Ремонт компьютеров в Москве и Киеве
 email: 					    it@skylines.su

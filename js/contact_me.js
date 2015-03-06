@@ -12,7 +12,7 @@ $(function() {
             var message = $("textarea#message").val();
             
             $.ajax({
-                url: "//forms.brace.io/i@skylines.su",
+                url: "//formspree.io/i@skylines.su",
                 method: "POST",
                 data: {
                     message: message

@@ -18,7 +18,7 @@
 <ul class="nav navbar-nav">
  {% for graceful in site.data.menu %}
 <li>
-<a {% if {{ site.url }}/{{ graceful.href }}/ == page.url %}class="active"{% endif %} href="{{ site.url }}/{{ graceful.href }}/">{{ graceful.title }}</a>
+<a href="{{ site.url }}/{{ graceful.href }}/">{{ graceful.title }}</a>
 <!-- check to see if the data file has a submenu, and if so display it -->
 {% if graceful.subcategories != null %}
 <ul class="dropdown-menu">
